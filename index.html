@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEEUM</title>
+  <!--.favicon-->
+  <link rel="icon" href="img/favicon (2).png" type="image/x-icon">
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--js-->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/common.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <h1><a href="#"><img src="img/h-logo.png" alt="리움미술관로고"></a></h1>
+
+        <!--데스크탑 gnb 메뉴-->
+        <nav class="gnb">
+          <ul class="main-menu">
+            <li>
+              <a href="#">ABOUT</a>
+            </li>
+            <li>
+              <a href="#">VISIT</a>
+            </li>
+            <li>
+              <a href="#">EXHIBITION</a>
+              <ul class="sub-menu">
+                <li><a href="#">Current</a></li>
+                <li><a href="#">Upcoming</a></li>
+                <li><a href="#">Past</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">ART</a>
+            </li>
+            <li>
+              <a href="#">LEARN</a>
+              <ul class="sub-menu">
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Video</a></li>  
+              </ul>
+            </li>
+            <li>
+              <a href="#">SUPPORT</a>
+              <ul class="sub-menu">
+                <li><a href="#">Membership</a></li> 
+              </ul>
+            </li>
+            <li>
+              <a href="#">ARCHIVE</a>
+            </li>
+          </ul><!--.main-menu-->
+        </nav>
+
+        <ul class="util">
+          <li><a href="#" class="btn-login">LOGIN</a></li>
+          <li><a href="#" class="btn-sc">SEARCH</a></li>
+        </ul>
+
+        <!--모바일 gnb 메뉴-->
+        <div class="mgnb-wrap">
+          <h2><a href="#"></a></h2>
+          <ul class="mgnb">
+            <li>
+              <a href="#">ABOUT</a>
+            </li>
+            <li>
+              <a href="#">VISIT</a>
+            </li>
+            <li>
+              <a href="#">EXHIBITION</a>
+              <ul class="depth2">
+                <li><a href="#">Current</a></li>
+                <li><a href="#">Upcoming</a></li>
+                <li><a href="#">Past</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">ART</a>
+            </li>
+            <li>
+              <a href="#">LEARN</a>
+              <ul class="depth2">
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Video</a></li>  
+              </ul>
+            </li>
+            <li>
+              <a href="#">SUPPORT</a>
+              <ul class="depth2">
+                <li><a href="#">Membership</a></li> 
+              </ul>
+            </li>
+            <li>
+              <a href="#">ARCHIVE</a>
+            </li>
+          </ul><!--.mgnb-->
+
+          <div class="mgnb-close">모바일 메뉴 닫기</div><!--.mgnb-close-->
+        </div><!--.mgnb-wrap-->
+
+        <ul class="m-util">
+          <li><a href="#" class="btn-mypage">마이페이지</a></li>
+          <li><a href="#" class="btn-search">검색</a></li>
+          <li><a href="#" class="btn-ham">메뉴열기</a></li>
+        </ul>
+     </div><!--.inner-->
+    </header>
+
+    <div class="search">
+      <form>
+        <fieldset>
+          <legend>SEARCH</legend>
+          <input type="text" placeholder="전시명을 입력해주세요.">
+          <button type="button">SEARCH</button>
+        </fieldset>
+      </form>
+      <div class="search-close">검색</div><!--.search-close-->
+    </div><!--.search-->
+
+    
+    <section id="main-visual">
+        <h1 data-aos="fade-up"
+        data-aos-duration="2000">LEEUM</h1>
+    </section><!--#main-visual-->
+
+    <section id="exhibition" data-aos="fade-up" data-aos-duration="1000">
+      <h1 class="s-tit">Exhibition</h1>
+      <div class="swiper img-txt">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#" class="img1"></a>
+            <dl>
+              <dt class="kr">필립 파레노: 보이스</dt>
+              <dd class="kr">M2, 블랙박스, 그라운드갤러리, 로비, 데크</dd>
+              <dd>2024.02.28. ~ 2024.07.07.</dd>
+            </dl>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="img2"></a>
+            <dl>
+              <dt class="kr">갈라 포라스-김: 국보</dt>
+              <dd class="kr">M1, 2층</dd>
+              <dd>2023.10.31. ~ 2024.03.31.</dd>
+            </dl>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="img3"></a>
+            <dl>
+              <dt class="kr">김범 개인전: 바위가 되는 법</dt>
+              <dd class="kr">블랙박스, 그라운드갤러리</dd>
+              <dd>2023.07.27. ~ 2023.12.03.</dd>
+            </dl>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="img4"></a>
+            <dl>
+              <dt class="kr">강서경: 버들 북 꾀꼬리</dt>
+              <dd class="kr">M2</dd>
+              <dd>2023.09.07. ~ 2023.12.31.</dd>
+            </dl>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="img5"></a>
+            <dl>
+              <dt class="kr">박보마: 물질의 의식</dt>
+              <dd class="kr">로비</dd>
+              <dd>2023.07.25. ~ 2023.12.24.</dd>
+            </dl>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="img6"></a>
+            <dl>
+              <dt class="kr">권하윤: 영원한 움직임, 이상한 행렬</dt>
+              <dd class="kr">M1, 2층</dd>
+              <dd>2023.05.16. ~ 2023.10.15.</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <div thumbsSlider="" class="swiper number">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h3>01</h3>
+          </div>
+          <div class="swiper-slide">
+            <h3>02</h3>
+          </div><div class="swiper-slide">
+            <h3>03</h3>
+          </div>
+          <div class="swiper-slide">
+            <h3>04</h3>
+          </div>
+          <div class="swiper-slide">
+            <h3>05</h3>
+          </div>
+          <div class="swiper-slide">
+            <h3>06</h3>
+          </div>
+        </div>
+      </div>
+    </section><!--#exhibition-->
+
+    <section id="art" data-aos="fade-up" data-aos-duration="1000">
+      <h1 class="s-tit">Art</h1>
+      <div class="swiper art">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-aos="zoom-in" data-aos-duration="1300">
+            <a href="#">
+              <img src="../LEEUM_0507/img/매카시 심술이.jpg" alt="매카시 심술이">
+               <dl>
+                <dt>설백 난쟁이(심술이)</dt>
+                <dd>폴 매카시 (2012)</dd>
+                <dd>실리콘</dd>
+               </dl>
+               <span class="more">View more</span>
+            </a>
+          </div>
+          <div class="swiper-slide" data-aos="zoom-out" data-aos-duration="1000">
+            <a href="#">
+              <img src="../LEEUM_0507/img/Judd_무제2.jpg" alt="저드 무제2">
+               <dl>
+                <dt>무제2</dt>
+                <dd>도널드 저드 (1989)</dd>
+                <dd>풀렉시글래스</dd>
+               </dl>
+               <span class="more">View more</span>
+            </a>
+          </div>
+          <div class="swiper-slide" data-aos="zoom-in" data-aos-duration="1300">
+            <a href="#">
+              <img src="../LEEUM_0507/img/Pai_신화의흔들림.jpg" alt="존배 신화의 흔들림">
+               <dl>
+                <dt>신화의 흔들림</dt>
+                <dd>존 배 (2009)</dd>
+                <dd>강철 용접</dd>
+               </dl>
+               <span class="more">View more</span>
+            </a>
+          </div>
+          <div class="swiper-slide" data-aos="zoom-in" data-aos-duration="1300">
+            <a href="#">
+              <img src="../LEEUM_0507/img/Bourgeois_밀실XI_초상.jpg" alt="부르주아 밀실 초상">
+               <dl>
+                <dt>밀실 XI(초상)</dt>
+                <dd>루이즈 부르주아 (2000)</dd>
+                <dd>강철, 유리, 나무, 거울, 천</dd>
+               </dl>
+               <span class="more">View more</span>
+            </a>
+          </div>
+          <div class="swiper-slide" data-aos="zoom-out" data-aos-duration="1000">
+            <a href="#">
+              <img src="../LEEUM_0507/img/Gabo 공간안의선구성l.jpg" alt="가보 공간안의선구성">
+               <dl>
+                <dt>공간 안의 선 구성 No. 2</dt>
+                <dd>나움 가보 (1949)</dd>
+                <dd>플라스틱, 나일론 줄</dd>
+               </dl>
+               <span class="more">View more</span>
+            </a>
+          </div>
+          <div class="swiper-slide" data-aos="zoom-in" data-aos-duration="1300">
+            <a href="#">
+              <img src="../LEEUM_0507/img/김홍석_비닐봉지.jpg" alt="김홍석 비닐봉지">
+               <dl>
+                <dt>비닐봉지</dt>
+                <dd>김홍석 (2011)</dd>
+                <dd>청동</dd>
+               </dl>
+               <span class="more">View more</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section><!--#art-->
+
+    <section id="gallery" data-aos="fade-up" data-aos-duration="1000">
+     <h1 class="s-tit">Gallery</h1>
+      <div class="txt-box">
+        <h2>LEEUM<br>COLLECTION</h2>
+      </div><!--.txt-box-->
+      <div class="post-list flex-box">
+        <ul>
+          <li data-aos="fade-right" data-aos-duration="1200">
+            <a href="#">
+              <figure>
+                <img src="img/gallery_01.jpg" alt="갤러리1">
+              </figure> 
+              <span class="title">정물<br>1937</span>
+            </a>
+          </li>
+          <li data-aos="fade-left" data-aos-duration="1700">
+            <a href="#">
+              <figure>
+                <img src="img/gallery_03.jpg" alt="갤러리2">
+              </figure> 
+              <span class="title">무제 XVI<br>1977</span>
+            </a>
+          </li>
+          <li data-aos="fade-right" data-aos-duration="1800">
+            <a href="#">
+              <figure>
+                <img src="img/gallery_05.jpg" alt="갤러리3">
+              </figure> 
+              <span class="title">644 쉬농<br>1987</span>
+            </a>
+          </li>
+          <li data-aos="fade-left" data-aos-duration="2000">
+            <a href="#">
+              <figure>
+                <img src="img/gallery_06.jpg" alt="갤러리4">
+              </figure> 
+              <span class="title">크리매스터3<br>2001</span>
+            </a>
+          </li>
+          <li data-aos="fade-right" data-aos-duration="1400">
+            <a href="#">
+              <figure>
+                <img src="img/gallery_02.jpg" alt="갤러리5">
+              </figure> 
+              <span class="title">여우 바퀴 Ⅱ<br>1989, 1991</span>
+            </a>
+          </li>
+          <li data-aos="fade-left" data-aos-duration="2200">
+            <a href="#">
+              <figure>
+                <img src="img/gallery_04.jpg" alt="갤러리6">
+              </figure> 
+              <span class="title">궁극의 영역<br>2008</span>
+            </a>
+          </li>
+         </ul>
+        </div>
+    </section><!--#gallery-->
+
+    <section id="location" data-aos="fade-up" data-aos-duration="1000">
+      <h1 class="s-tit">Location</h1>
+      <div class="flex-box">
+      <div class="text-box">
+        <dl class="address">
+          <dt>주소</dt>
+          <dd>서울특별시 용산구 이태원로 55길 60-16 (04348)</dd>
+          <dd>지하철 6호선 한강진역 1번 출구에서 이태원 방향으로 100m 이동 후, 오른쪽 첫번째 골목에서 우회전하여 언덕길로 약5분정도 올라옵니다.</dd>
+          <dd>*주차공간이 협소하오니 대중교통 이용을 권장합니다.</dd>
+        </dl>
+        <dl class="info">
+          <dt><strong>관람 안내</strong></dt>
+          <dd>관람 시간 | 10:00 ~ 18:00</dd>
+          <dd>매표 시간 | 10:00 ~ 17:30</dd>
+          <dd>휴관일 | 매주 월요일, 매년 1월 1일, 음력 명절 당일</dd>
+        </dl>
+      </div><!--.text-box-->
+      <div class="map-box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.728474908534!2d126.99681341134672!3d37.537897425653405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca31be3dcde53%3A0xfbec8b809878a1bb!2z66as7JuA66-47Iig6rSA!5e0!3m2!1sko!2skr!4v1715173886472!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div><!--.map-box-->
+    </div><!--.flex-box-->
+    </section><!--#location-->
+
+    <footer>
+      <h1><a href="#"><img src="img/f-logo.png" alt="리움미술관 로고"></a></h1>
+      <ul>
+        <li>Tel. 02-2014-9600</li>
+        <li>Address. 서울특별시 용산구 이태원로55길 60-16</li>
+        <li><a href="#">전시 예약</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+
+      <div class="sns-box">
+        <ul>
+          <li><a href="#"><img src="img/logo-instagram.png" alt="인스타그램"></a></li>
+          <li><a href="#"><img src="img/logo-facebook.png" alt="페이스북"></a></li>
+          <li><a href="#"><img src="img/logo-youtube.png" alt="유튜브"></a></li>
+        </ul>
+        <span><a href="#">Family Site</a></span>
+      </div>
+      <p>&copy; Leeum Museum of Art, All Rights Reserved.</p>
+    </footer>
+  </div><!--#wrap-->
+</body>
+</html>
